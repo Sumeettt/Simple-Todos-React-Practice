@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+.each-todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.todo-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.delete-button {
+  margin-left: 15px;
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+}
